@@ -1,0 +1,606 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: border-box; */
+    color: white;
+    overflow-x: hidden;
+}
+
+
+
+nav{
+    position: fixed;
+    width : 100%;
+    top : 0%;
+    margin-top: 0%;
+}
+
+#nav_bar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    /* height: 4.375rem; */
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0rem;
+}
+
+#nav-logo{
+    height: 3.75rem;
+    width: 9.375rem;
+    padding: 0.0625rem .5rem 0rem 0.375rem;
+    /* margin-right: 30px; */
+}
+
+#logo {
+    background-image: url(./assets/img/EShoppylogo.png);
+    background-size: cover;
+    height: 100%;
+    /* width: 100%; */
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.m-anchor-link{
+    text-decoration: none;
+    font-size: larger;
+}
+
+
+#nav-menu{
+    width: 55%;
+    /* border: 2px solid white; */
+    margin-left: 3.75rem;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#menu-items{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.m-items li a .active , .m-items li a .hover{
+    background-color: teal;
+    transition: 5s; 
+} 
+
+
+
+
+
+
+
+/* ....Section1.... */
+.section1{
+    background-color: #e2e7e6;
+}
+
+.borderS1{
+    border: 2px solid black;    
+}
+.borderS2{
+    border: 2px solid red;
+}
+
+.imageborder{
+    border: 2px solid rgb(81, 10, 245);
+}
+
+body{
+    margin-top: 2rem;
+}
+.main-banner{
+    height: 500px;
+    margin-top: 100px;
+    overflow: hidden;
+    padding: 16px;
+    /* margin-bottom: 200px; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: #e2e7e6;
+}
+
+
+/* ...........SECTION 2 .......... */
+
+/* Shop section */
+.bordertesting1{
+    border: 2px double darkorange;
+}
+
+.bordertesting2{
+    border: 2px double rgb(125, 228, 9);
+}
+.bordertesting3{
+    border: 2px double rgb(166, 9, 228);
+}
+
+.section2{
+    color: black;
+}
+
+.shop-section{
+    color: black;
+    /* height: 400px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : space-evenly;
+    background-color : #e2e7e6;
+    /* background-color: #007185; */
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2px;
+}
+
+.box-content h2{
+    color: #5a5858;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+.box-img{
+    height: 17rem;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: transform .2s;
+}
+
+.box-img:hover {
+    -ms-transform: scale(1.15); /* IE 9 */
+    -webkit-transform: scale(1.15); /* Safari 3-8 */
+    transform: scale(1.15); 
+  }
+
+
+.collections{
+    margin-left: 35px;
+    margin-top: 40px;
+    border-top: 2px dotted rgb(162, 226, 235);
+}
+
+.collections h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 0%;
+}
+
+.collections p{
+    color: grey;
+    font-weight: 300;
+    margin-top: 0%;
+}
+
+.add-to-cart{
+    color: white;
+    background-color: rgb(146, 143, 143);
+}
+
+.add-to-cart:active{
+    background-color: rgb(57, 57, 224);
+    color: black;
+}
+
+
+
+/* .........section 2........... */
+
+
+.main-banner *{
+    overflow: hidden;
+    /* padding: 16px; */
+
+}
+
+/* .left-side{
+    width: 50%;
+    padding: .5% .5% .7% 0%;
+} */
+
+.image0{
+    width: 50%;
+    height: 100%;
+    background-image: url(./assets/img/left-banner-image.jpg);
+    background-size: cover;
+    overflow: hidden;
+    /* padding: .5% .5% .7% 0%; */
+    /* padding: 0% 1% 0% 0%; */
+}
+
+.inner-text{
+    /* position: relative; */
+    margin-top: 35%;
+    margin-left: 15%;
+    margin-right: 0%;
+
+}
+
+h1{
+    /* text-align: center; */
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+    font-size: 2.7rem;
+    
+}
+
+
+.inner-text h4 {
+    /* text-align: center;     */
+    color: white;
+    font-size: .9rem;
+    margin-top: 0%;
+}
+
+
+.button{
+    
+    background-color: rgb(74, 118, 212);
+    color: white;
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #494747;
+    border-right:  2px solid #494747;
+    
+}
+
+.button:hover{
+    background-color: blanchedalmond;
+    color: black;
+    font-size: larger;    
+    border-bottom: 2px solid #000000;
+    border-right:  2px solid #000000;
+}
+
+
+
+
+.right-side{
+    width: 50%;
+    height: 100%;
+    /* padding: .5%; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap ;
+}
+.right-side *{
+    color: white;
+}
+
+.image1{
+    width: 49%;
+    height: 49%;
+    background-image: url(./assets/img/baner-right-image-01.jpg);
+    background-size: cover;
+    /* margin-right: 50px; */
+    /* padding: 1px; */
+}
+
+
+.image2{
+    width: 49%;
+    height: 49%;
+    background-image: url(./assets/img/baner-right-image-02.jpg);
+    background-size: cover;
+    /* padding: 1px; */
+    /* margin: 0% 0% 1% 0%; */
+}
+
+.image3{
+    width: 49%;
+    height: 49%;
+    background-image: url(./assets/img/baner-right-image-03.jpg);
+    background-size: cover;
+    /* margin-bottom: 0px; */
+    /* padding: 1px; */
+    /* margin: 0% 1% 1% 0%; */
+
+}
+
+.image4{
+    width: 49%;
+    height: 49%;
+    background-image: url(./assets/img/baner-right-image-04.jpg);
+    background-size: cover;
+    /* padding: 1px; */
+    /* margin-bottom: 0%; */
+}
+
+
+/* ..........section 1 */
+
+/*....... Footer START ...... */
+
+.border1{
+    border: 2px solid rgb(47, 68, 255);
+}
+
+.footer-area{
+    /* height: 455px; */
+    /* height: 35rem; */
+    /* width: 100%; */
+    margin-top: 3.125rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 20px;
+    
+}
+
+.footer-row{
+    margin-top: 1%;
+    height: 21.25rem;
+    /* width: 60rem; */
+    border-bottom: 1px solid grey;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-between;
+    
+}
+
+.col-lg-3{
+    max-width: 24%;
+    margin-right: 40px;
+    /* line-height: 20px; */
+    /* display: flex;
+    justify-content: left; */
+}
+
+.first-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-logo{
+    /* width: 100%; */
+
+    background-image: url(./assets/img/EShoppylogo.png);
+    background-size: cover;
+    height: 5rem;
+
+}
+
+.f-anchor-link{
+    text-decoration: none;
+}
+
+.ul-default{
+    list-style-type: none;
+    padding-left: 0%;
+    margin-top: 1rem;
+}
+
+.second-item{
+    /* max-width: 100%; */
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 24px;
+}
+
+.third-item{
+    /* max-width: 100%; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+}
+
+.fourth-item{
+    /* max-width: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-items1{
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* .footer-items2{
+    justify-content: space-evenly;
+} */
+
+.col-lg-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 0px; */
+}
+
+.footer-fa-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footer-fa-icon li a i {
+    color:rgb(64, 203, 228);
+}
+
+.Copyright-design{
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.bordertesting1{
+    border: 2px double darkorange;
+}
+
+.bordertesting2{
+    border: 2px double rgb(125, 228, 9);
+}
+.bordertesting3{
+    border: 2px double rgb(166, 9, 228);
+}
+
+/* ........END FOOTER.... */
+
+
+
+/* EXTRA////////// */
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .shop-section {
+        width: 420%;
+        height: 110%;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .main-banner{
+        height: 2x;
+        /* width: 2x; */
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .image0{
+        width: 100%;
+        height: 100%;       
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .right-side {
+        width: 100%;
+        height: 100%;       
+        margin-top: 5px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .image1{
+        width: 100%;
+        height: 100%;
+        /* flex-direction: column; */
+    }
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .image2{
+        width: 100%;
+        height: 100%;       
+        /* flex-direction: column; */
+    }
+}
+
+@media screen and (min-width: 510px) and (max-width:845px) {
+    .image1{
+        width: 100%;
+        height: 50%;
+        /* flex-direction: column; */
+    }
+}
+
+@media screen and (min-width: 510px) and (max-width:845px) {
+    .image2{
+        width: 100%;
+        height: 50%;       
+        /* flex-direction: column; */
+    }
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .footer-row{
+        /* width: 100%; */
+        height: 100%;       
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .col-lg-3 {
+        max-width: 50%;
+        margin-top: 10px;
+        margin-right: 0px;
+        /* margin-bottom: 5px; */
+    }
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .second-item{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .third-item{
+        margin-right: 2.2rem;
+    }
+    
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .fourth-item{
+        margin-left: 5.1px;
+    }
+    
+}
+
+@media screen and (min-width: 180px) and (max-width:860px) {
+    #nav_bar{
+        height: auto;
+        flex-direction: column;
+    }
+    #nav-menu{
+        width: 100%;
+    }
+    #menu-items{
+        justify-content: space-evenly;
+        font-size: smaller;
+    }
+
+}

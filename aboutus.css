@@ -1,0 +1,371 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: border-box; */
+    color: white;
+    overflow-x: hidden;
+}
+
+
+
+nav{
+    position: fixed;
+    width : 100%;
+    top : 0%;
+    margin-top: 0%;
+}
+
+#nav_bar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    height: 4.375rem;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0rem;
+}
+
+#nav-logo{
+    height: 3.75rem;
+    width: 9.375rem;
+    padding: 0.0625rem .5rem 0rem 0.375rem;
+    /* margin-right: 30px; */
+}
+
+#logo {
+    background-image: url(./assets/img/EShoppylogo.png);
+    background-size: cover;
+    height: 100%;
+    /* width: 100%; */
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.m-anchor-link{
+    text-decoration: none;
+    font-size: larger;
+}
+
+
+#nav-menu{
+    width: 55%;
+    /* border: 2px solid white; */
+    margin-left: 3.75rem;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#menu-items{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.m-items li a .active , .m-items li a .hover{
+    background-color: teal;
+    transition: 5s; 
+} 
+
+
+/* ........ Navbar End......... */
+
+
+
+
+
+
+/*....... Footer START ...... */
+
+.border1{
+    border: 2px solid rgb(47, 68, 255);
+}
+
+/* .......... About section  Start........*/
+
+.about-section *{
+    overflow: hidden;
+}
+
+.about-section2 *{
+    overflow: hidden;
+}
+
+.about-section {
+    background-color: #c6dbe0;
+}
+
+.about-section2 {
+    background-color: #c6dbe0;
+    color: black;
+}
+
+
+
+.bgimg{
+    /* width: 100%; */
+    height: 450px;
+    /* border: 2px solid red; */
+    background-image: url(./assets/img/aboutimg.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 100% 450px;   
+    margin-top: 100px;
+}
+
+.bgimg .about1{
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-weight: 800;
+    -webkit-text-stroke-color: rgb(2, 2, 2);
+    -webkit-text-stroke-width: 4px;
+    text-align: center ;
+    margin-top: 10rem;    
+}
+
+
+.bgimg2{
+    background-image: url(./assets/img/my.jpeg);
+    background-repeat: no-repeat;
+    background-size: 350px; 
+    height: 500px;
+    margin: 6rem;
+    padding: 50px;
+
+}
+
+.bgimg2 .about2{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
+    margin-left: 21rem;
+
+}
+
+.bgimg2 .about21{
+    color: rgb(100, 92, 92);
+    font-size: x-large;
+    text-align: center;
+    margin-top: 8px ;
+    margin-left: 25rem;
+    margin-right: 3.50rem;
+    line-height: 40px;
+    padding: 20px;
+}
+
+.about21 .thankyou {
+    font-size:larger ;
+    color: rgb(143, 106, 106);
+}
+
+.aboutus-fa-icon {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 12.5rem;
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+
+.aboutus-fa-icon li a i{    
+    /* text-align: center; */
+    color: black;
+    /* text-align: center; */
+    font-size: 25px;
+}
+
+
+/* ........... About Us ......... */
+
+
+/* ........ Footer Area ........ */
+
+.footer-area{
+    /* height: 455px; */
+    /* height: 35rem; */
+    /* width: 100%; */
+    margin-top: 1px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 20px;
+    
+}
+
+.footer-row{
+    margin-top: 1%;
+    height: 21.25rem;
+    /* width: 60rem; */
+    border-bottom: 1px solid grey;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-between;
+    
+}
+
+.col-lg-3{
+    max-width: 24%;
+    margin-right: 40px;
+    /* line-height: 20px; */
+    /* display: flex;
+    justify-content: left; */
+}
+
+.first-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-logo{
+    /* width: 100%; */
+
+    background-image: url(./assets/img/EShoppylogo.png);
+    background-size: cover;
+    height: 5rem;
+
+}
+
+.f-anchor-link{
+    text-decoration: none;
+}
+
+.ul-default{
+    list-style-type: none;
+    padding-left: 0%;
+    margin-top: 1rem;
+}
+
+.second-item{
+    /* max-width: 100%; */
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 24px;
+}
+
+.third-item{
+    /* max-width: 100%; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+}
+
+.fourth-item{
+    /* max-width: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-items1{
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* .footer-items2{
+    justify-content: space-evenly;
+} */
+
+.col-lg-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 0px; */
+}
+
+.footer-fa-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footer-fa-icon li a i {
+    color:rgb(64, 203, 228);
+}
+
+.Copyright-design{
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.bordertesting1{
+    border: 2px double darkorange;
+}
+
+.bordertesting2{
+    border: 2px double rgb(125, 228, 9);
+}
+.bordertesting3{
+    border: 2px double rgb(166, 9, 228);
+}
+
+/* ........END FOOTER.... */
+
+
+
+/* EXTRA////////// */
+
+
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .footer-row{
+        /* width: 100%; */
+        height: 100%;       
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .col-lg-3 {
+        max-width: 50%;
+        margin-top: 10px;
+        margin-right: 0px;
+        /* margin-bottom: 5px; */
+    }
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .second-item{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .third-item{
+        margin-right: 2.2rem;
+    }
+    
+}
+
+@media screen and (min-width: 180px) and (max-width:510px) {
+    .fourth-item{
+        margin-left: 5.1px;
+    }
+    
+}
